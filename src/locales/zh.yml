@@ -1,5 +1,5 @@
 nav:
-    posts: 随笔
+    posts: 文章
     recent: 最近
 footer:
     home: 首页
@@ -22,3 +22,5 @@ message:
 pagination:
     previous: 上一页
     next: 下一页
+tags:
+    language-feature: 语言特性

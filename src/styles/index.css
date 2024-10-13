@@ -1,5 +1,5 @@
 body {
-    font-family: Verdana, sans-serif;
+    font-family: "Noto Serif SC", sans-serif;
     overflow-y: scroll;
 }
 
@@ -103,15 +103,14 @@ a.animated.active:after {
 
 :root.dark {
     color-scheme: dark;
-    --color-primary-main: 235 153 161; /* #eb99a1 */
-    --color-secondary-main: 226 111 122; /* #e26f7a */
+    --color-primary-main: 110 172 218; /* #eb99a1 */
+    --color-secondary-main: 226 226 182; /* #e26f7a */
     --color-text-body: 214 211 209;
     --color-text-heading: 255 255 255;
     --color-text-link: var(--color-primary-main);
     --color-text-link-hover: var(--color-secondary-main);
     --color-border: var(--color-primary-main);
     --color-code-bg : #1a202c;
-
     scroll-behavior: smooth;
 }
 
@@ -128,7 +127,7 @@ a.animated.active:after {
  * blockquote
  */
 .prose :where(blockquote):not(:where(.not-prose, .not-prose *)) {
-    @apply bg-gray-100 dark:bg-stone-600
+    @apply bg-gray-100 dark:bg-slate-900
     text-base m-0
     border-l-solid
     font-normal rounded-lg

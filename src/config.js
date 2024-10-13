@@ -1,16 +1,16 @@
 export const PandaConfig = {
-    title: 'Panda Blog',
-    description: 'Panda Blog, a blog powered by Astro',
-    start: '2016',
+    title: '学点毛线',
+    description: '学术和技术，以及一些有的没的',
+    start: '2024',
     site: 'https://astro-theme-panda.vercel.app/',
-    defaultLocale: 'en',
+    defaultLocale: 'zh',
     navbar: [
         // {title: 'Posts', url: '/'}, // auto generated
-        { title: 'about', url: '/about/' }
+        //{ title: 'about', url: '/about/' }
     ],
     footer: [
-        { title: 'rss', url: '/rss.xml/' },
-        { title: 'contact', url: 'https://github.com/yuhangch/astro-theme-panda/issues/new' },
-        { title: 'github', url: 'https://github.com/yuhangch/astro-theme-panda' }
+        { title: 'RSS', url: '/rss.xml/' },
+        { title: 'GitHub', url: 'https://github.com/zhenyuliu-hunnu' },
+        { title: 'Licensed under CC BY 4.0', url: 'https://creativecommons.org/licenses/by/4.0/' }
     ]
 }
