@@ -184,4 +184,4 @@ x_broadcast = torch.tensor([[[[1, 2],
 
 现在两者形状完全相同，就可以逐元素进行任意运算了。
 
-_reference_: https://pytorch.org/docs/stable/notes/broadcasting.html#in-place-semantics
+_reference_: [Broadcasting semantics](https://pytorch.org/docs/stable/notes/broadcasting.html#in-place-semantics)
