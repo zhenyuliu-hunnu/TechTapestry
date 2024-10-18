@@ -32,7 +32,6 @@ export default defineConfig({
     },
     prefetch: true,
     site:'https://zhenyuliu-hunnu.github.io/',
-    base:'TechTapestry',
     scopedStyleStrategy: 'class',
     trailingSlash: 'always',
     build: {
