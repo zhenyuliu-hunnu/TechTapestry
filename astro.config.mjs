@@ -31,7 +31,8 @@ export default defineConfig({
         plugins: [yaml()],
     },
     prefetch: true,
-    site,
+    site:'https://zhenyuliu-hunnu.github.io/',
+    base:'TechTapestry',
     scopedStyleStrategy: 'class',
     trailingSlash: 'always',
     build: {
