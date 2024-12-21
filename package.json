@@ -16,7 +16,7 @@
         "@astrojs/sitemap": "latest",
         "@astrojs/ts-plugin": "latest",
         "@fontsource-variable/noto-serif-sc": "^5.1.0",
-        "astro": "latest",
+        "astro": "^5.0.4",
         "astro-expressive-code": "latest",
         "astro-i18n-aut": "latest",
         "astro-purgecss": "latest",
